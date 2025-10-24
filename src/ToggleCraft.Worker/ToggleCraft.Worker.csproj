@@ -10,4 +10,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.10" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToggleCraft.Application\ToggleCraft.Application.csproj" />
+    <ProjectReference Include="..\ToggleCraft.Infrastructure\ToggleCraft.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
