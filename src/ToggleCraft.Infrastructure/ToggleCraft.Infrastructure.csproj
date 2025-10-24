@@ -5,6 +5,13 @@
     <ProjectReference Include="..\ToggleCraft.Application\ToggleCraft.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.5.5" />
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="8.5.5" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="StackExchange.Redis" Version="2.9.32" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
