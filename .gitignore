@@ -1,0 +1,150 @@
+###############################################################################
+# OS junk
+###############################################################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+###############################################################################
+# Editors & IDEs
+###############################################################################
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# JetBrains / Rider
+.idea/
+*.iml
+# Resharper / NCrunch
+_ReSharper*/
+*_ReSharper.*
+*.ncrunch*
+_NCrunch_*
+*.crunchsolution
+*.crunchproject
+
+###############################################################################
+# .NET / Visual Studio build artifacts
+###############################################################################
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+*.nupkg
+*.snk
+*.psess
+*.vsp
+*.vspx
+*.coverage
+*.coveragexml
+*.log
+*.Cache
+*.dbmdl
+*.jfm
+project.lock.json
+.nuget/packages/
+**/*.csproj.user
+**/*.csproj.DotSettings
+# ASP.NET generated
+App_Data/
+Generated_Code/
+
+###############################################################################
+# Node / Next.js
+###############################################################################
+node_modules/
+# keep lockfiles for reproducible builds:
+#! package-lock.json
+#! yarn.lock
+#! pnpm-lock.yaml
+.npmrc
+.yarnrc
+.pnpm-store/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.parcel-cache/
+.turbo/
+
+###############################################################################
+# Env & secrets
+###############################################################################
+.env
+.env.*
+!.env.example
+!.env.local.example
+secrets.json
+*.secret
+*.local
+
+###############################################################################
+# Docker & local data mounts
+###############################################################################
+docker-data/
+db-data/
+pgdata/
+redis-data/
+*.pid
+*.seed
+**/Dockerfile.local
+
+###############################################################################
+# Logs & temp
+###############################################################################
+logs/
+log/
+*.log
+*.tmp
+tmp/
+temp/
+
+###############################################################################
+# Databases (local dev)
+###############################################################################
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+###############################################################################
+# Test tooling
+###############################################################################
+# Playwright
+playwright-report/
+test-results/
+.traces/
+# Cypress
+cypress/videos/
+cypress/screenshots/
+.cypress-cache/
+# Coverage
+coverage.cobertura.xml
+lcov.info
+
+###############################################################################
+# Misc tooling
+###############################################################################
+.sonar/
+.analyzers/
+.tye/
+*.code-workspace
